@@ -133,8 +133,21 @@ footer p {
 }
 
 
-#cadeado {
+#lock {
   position: fixed;
   left: 0;
   bottom: 0;
+}
+
+@media (max-width: 1220px) {
+  main {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 1220px) {
+  body {
+    padding: 3rem;
+  }
 }
