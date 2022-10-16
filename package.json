@@ -1,0 +1,24 @@
+{
+  "name": "rocketsect",
+  "version": "1.0.0",
+  "description": "---\r A landing page of a fictitious data security company.\r ---\r [Click here to see the page](https://antoniodebrito.github.io/rocketsect/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antoniodebrito/rocketsect.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antoniodebrito/rocketsect/issues"
+  },
+  "homepage": "https://github.com/antoniodebrito/rocketsect#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2"
+  }
+}
