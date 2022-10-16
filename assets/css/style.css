@@ -5,6 +5,7 @@
 }
 
 :root {
+  font-size: 62.5%;
   --primary-color: #2F2E41;
   --special-color: #00BFA6;
   --destak-color: #C2C2C2;
@@ -20,21 +21,22 @@ body {
 }
 
 body {
+  font-size: 1.6rem;
   font-family: var(--comum-font);
   background: var(--primary-color);
 }
 
 .page {
-  max-width: 1080px;
+  max-width: 108rem;
   margin: 0 auto;
-  padding-top: 70px;
+  padding-top: 7rem;
 }
 
 a:hover {
   color: var(--primary-color);
   background: #00bfa667;
-  padding: 0 8px;
-  border-radius: 4px;
+  padding: 0 .8rem;
+  border-radius: .4rem;
   transition: 0.2s;
 
 }
@@ -50,26 +52,26 @@ nav ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 64px;
+  gap: 6.4rem;
 }
 
 nav ul a {
   font-family: var(--secondary-font);
   font-weight: 500;
-  font-size: 14px;
-  line-height: 28px;
+  font-size: 1.4rem;
+  line-height: 2.8rem;
   opacity: 0.9;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-shadow: 0px .4rem .4rem rgba(0, 0, 0, 0.25);
   color: #fff;
   text-decoration: none;
 }
 
 main {
-  margin-top: 101px;
+  margin-top: 10.1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 77px;
+  gap: 7.7rem;
 }
 
 section {
@@ -82,17 +84,17 @@ h1 {
   color: #fff;
   font-family: var(--secondary-font);
   font-weight: 700;
-  font-size: 36px;
-  line-height: 40px;
-  margin-bottom: 59px;
+  font-size: 3.6rem;
+  line-height: 4rem;
+  margin-bottom: 6rem;
   width: 608px;
 }
 
 .text {
-  width: 604px;
-  height: 168px;
+  width: 60.4rem;
+  height: 16.8rem;
   text-align: center;
-  gap: 40px;
+  gap: 4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -100,7 +102,7 @@ h1 {
 
 p {
   color: var(--destak-color);
-  line-height: 28px;
+  line-height: 2.8rem;
 }
 
 h1 span,
@@ -111,15 +113,15 @@ span {
 .line {
   height: 0;
   border: 1px solid #00BFA6;
-  width: 568px;
-  margin-bottom: 27px;
+  width: 56.8rem;
+  margin-bottom: 2.7rem;
 }
 
 
 footer {
-  width: 568px;
-  height: 55px;
-  margin: 157px auto 0;
+  width: 56.8rem;
+  height: 5.5rem;
+  margin: 15.7rem auto 0;
   text-align: center;
 
 }
